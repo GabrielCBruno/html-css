@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com imagem</h1>
+    <p>É possível colocar imagens no site que alteram o tamanho de acordo com a tela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="media/imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="media/imagem/foto-m.png" type="image/png">
+        <img src="media/imagem/foto-g.png" alt="Foto flexível">
+    </picture>
+    <h1>Trabalhando com áudio</h1>
+    <p>É Possível colocar áudios no seu site.</p>
+    <audio controls preload="metadata">
+        <source src="media/audio/Zydeco Piano Party - Media Right Productions.mp3" type="audio/mpeg">
+    </audio> 
+    <h1>Trabalhando com video</h1>
+    <p>É Possível colocar videos no seu site</p>
+    <video controls width="500">
+        <source src="media/video/169951 (720p).mp4" type="video/mp4">
+    </video>
+</body>
+</html>

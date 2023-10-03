@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tegs relevântes em HTML5</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        :root {
+
+            --cor0: #FC581C;
+            --cor1: #E34F19;
+
+            --fonte_padrao: Arial, Helvetica, sans-serif;
+            --font_destaque: 'Bebas Neue', sans-serif;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #E8742E;
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+            text-align: center;
+            color: white;
+            height: 150px;
+        }
+
+        header h1 {
+            padding-top: 34px;
+            font-size: 40px;
+            font-family: var(--font_destaque);
+        }
+
+        header p {
+            font-family: var(--fonte_padrao);
+            font-size: 1.2em;
+        }
+
+        main {
+            background-color: white;
+            height: 800px;
+            min-width: 350px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        main h1 {
+            font-family: var(--fonte_padrao);
+            padding: 4px;
+        }
+
+        main p {
+            font-family: var(--fonte_padrao);
+            text-indent: 30px;
+            text-align: justify;
+        }
+
+        main ul {
+            text-decoration: none;
+            list-style-type: '\2714\00A0\00A0'; 
+            list-style-position: inside;
+        }
+
+        main abbr {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conheça as tags mais populares do HTML5</h1>
+        <p>Aqui vc encontrará uma lista com as tegs mais utilizadas do html.</p>
+    </header>
+    <main>
+        <h1>Tags em HTML</h1>
+        <p>
+            Em HTML5, podemos inseri os elementos da lista a seguir. Passe o mouse sobre os termos para descobrir qual tag deverá utilizar em cada caso. 
+        </p>
+        <ul>
+            <li><abbr title="use a tag &#60;p&#62;">Parágrafo</abbr>.</li>
+            <li><abbr title="use a tag &#60;h1&#62;">Título</abbr>.</li>
+            <li><abbr title="use a tag &#60;img&#62;">Imagens</abbr>.</li>
+            <li><abbr title="use a tag &#60;abbr&#62;">Abreviações</abbr>.</li>
+            <li><abbr title="use a tag &#60;ol&#62;">Listas numeradas</abbr>.</li>
+            <li><abbr title="use a tag &#60;ul&#62;">Listas com demarcadores</abbr>.</li>
+            <li><abbr title="use a tag &#60;header&#62;">Cabeçalho</abbr>.</li>
+            <li><abbr title="use a tag &#60;footer&#62;">Rodapé</abbr>.</li>
+            <li><abbr title="use a tag &#60;video&#62;">Video</abbr>.</li>
+            <li><abbr title="use a tag &#60;strong&#62; ">Negrito</abbr>.</li>
+            <li><abbr title="use a tag &#60;em&#62;">Itálico</abbr>.</li>
+        </ul>
+    </main>
+</body>
+</html>

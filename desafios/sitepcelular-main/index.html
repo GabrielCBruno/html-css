@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMARINGÁ</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Terror</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Suspense</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Comédia</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Drama</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ficção Científica</a>
+                </li>
+            </ul>
+            <img src="img/logo.png" alt="Logo cinema" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">CINEM</b>ARINGÁ</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Terror</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">SUspense</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Comédia</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Drama</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ficção Científica</a>
+                </li>
+            </ul>
+
+        
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe que filme escolher?</h2>
+        <p class="banner__texto">Encontre o seu filme</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima diversão?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">EM CARTAZ</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/oppenheimer.png"
+                            alt="oppenheimer"></div>
+                    <div class="swiper-slide"><img src="img/barbie.png"
+                            alt="barbie"></div>
+                    <div class="swiper-slide"><img src="img/missão.png"
+                            alt="missão impossível"></div>
+                    <div class="swiper-slide"><img src="img/Elementos.png" alt="Elementos"></div>
+                    <div class="swiper-slide"><img src="img/megalodon.png" alt="MegaTubarão 2"></div>
+                    <div class="swiper-slide"><img src="img/loucas em apuros.png" alt="Loucas em apuros"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">PROMOÇÃO</h3>
+                        <h2 class="descrição__titulo-livro">assista dois filmes</h2>
+                        <p class="descrição__texto">Com a compra de dois ingressos, você receberá um desconto de 30%!</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item">
+                        <li class="botões__item">
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">EM BREVE NOS CINEMAS</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Ursinho.png"
+                            alt="Ursinho pooh sangue e mel"></div>
+                    <div class="swiper-slide"><img src="img/dracula.png"
+                            alt="Dracula"></div>
+                    <div class="swiper-slide"><img src="img/a chamada.png"
+                            alt="A chamada"></div>
+                    <div class="swiper-slide"><img src="img/os mercenarios.png" alt="Mercenários 4"></div>
+                    <div class="swiper-slide"><img src="img/Rhinegold.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/convento.png" alt="Convento"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Grandees novidades por vir! </h3>
+                        <h2 class="descrição__titulo-livro">filmes</h2>
+                        <p class="descrição__texto">Com a compra de um ingresso antecipado, você ganha 50% de desconto!
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+            
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item">
+                        <li class="botões__item">
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">GÊNEROS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Terror</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Comédia</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Ficção científica</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Comédia</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Animação</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Drama</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Suspense</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Curta metragem</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de filmes e promoções.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
