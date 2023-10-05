@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundos</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -12,11 +12,18 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover; /*dois valores para criar responsabilidade da imagem de fundo neste comando é o contant e o cover. O contant vai mostrar/tentar mostrar 100% da imagem, colocando barras pretas para ajustar. Já o cover vai cobrir a tela inteira, mesmo que tenha que contrar um pouco da imagem.*/
+            background-attachment: fixed; /*faz com que fundo fique fixo.*/
+
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+                
+                [] = observação.
+            */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;

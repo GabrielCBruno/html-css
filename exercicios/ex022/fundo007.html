@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative; /*A posição de uma box por padrão é relativa*/
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute; /*O valor absolute permiter alterar a posição de uma box*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            /*comando usados para alterar a posição.*/
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%); /*comando que permiter alterar um atributo de uma box. O método traslate() permite mover uma box pela horizontal/vertical (valores positvo = direita/baixo, valores negativo = esquerda/cima).*/
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
