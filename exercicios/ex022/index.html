@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        .quadrado {
+            display: inline-block;
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black; /*shorthand: tamanho, estilo, cor*/
+            border-radius: 10px;
+        }
+
+        #q1 {
+            /*Essa é a primeira forma de alterar o fundo de uma tag, neste caso a a cor total do fundo é alterada para um cor específica.*/
+            background-color: skyblue;
+        }
+
+        #q2 {
+            /*Essa é a segunda forma de alterar o fundo de uma tag, neste exemplo a função linear-gradient() permite criar um dé-gra-dé usando uma ou mais cores.*/
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        #q3 {
+            /*Essa é a terceira forma de alterar o fundo de uma tag, neste exemplo o método url() permite adicionar uma imagem como plano de fundo da tag*/
+            background-image: url(imagens/pattern001.png);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>  
+</body>
+</html>
