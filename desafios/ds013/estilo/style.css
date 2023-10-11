@@ -5,7 +5,7 @@
 :root {
     --cor0: #35be1a;
     --cor1: #1c7a09;
-    --cor2: #97AE93;
+    --cor2: #29b90c;
     --cor3: #5d6d5a;
     --cor4: #393b41; /*talvez*/
 
@@ -31,6 +31,7 @@ header > h1 {
     font-family: var(--fonteDestaque);
     padding-top: 70px;
     font-weight: 200;
+    text-shadow: 0px 3px 3px black;
 }
 
 header > p {
@@ -41,13 +42,29 @@ header > p {
 
 nav {
     background-color: var(--cor0);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: var(--fontePadrao);
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    border-radius: 8px;
+    color: var(--cor1);
+    transition-duration: .5s;
 }
 
 main {
     background-color: white;
     padding: 15px;
     margin: auto;
-    height: 2100px;
+    height: 3100px;
     min-width: 290px;
     max-width: 1000px;
     padding: 20px;
@@ -55,8 +72,9 @@ main {
 }
 
 main  h1 {
-    color: black;
+    color: var(--cor1);
     font-family: var(--fonteTitulo);
+    background-image: linear-gradient(to right, var(--cor0), gray);
 }
 
 main  h2 {
@@ -72,6 +90,13 @@ main  p {
     font-size: 18px;
     text-indent: 25px;
     margin: 12px 0px;
+    line-height: 22px;
+}
+
+picture.imagem > img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 div.video {
