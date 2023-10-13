@@ -1,0 +1,32 @@
+@charset "UTF 8";
+
+@media (max-width: 660px) {
+    header > h1 {
+        font-size: 2.3em;
+        padding-bottom: 4px;
+    }
+    
+    header > p {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 593px) {
+    header > h1 {
+        font-size: 2em;
+    }
+    
+    header > p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 420px) {
+    header > h1 {
+        font-size: 1.7em;
+    }
+    
+    header > p {
+        font-size: .6em;
+    }
+}
