@@ -27,6 +27,30 @@
     }
     
     header > p {
-        font-size: .6em;
+        font-size: .9em;
+    }
+
+    nav{
+        padding-top: 17px;
+        font-size: 1em;
+    }
+
+    nav > a {
+        font-size: 1em;
+    }
+
+    main  p {
+        
+    }
+
+    div.video {
+        margin: 0px -10px 15px -10px;
+        width: 87%;
+        height: 87%;   
+    }
+
+    picture > img {
+        height: 50%;
+        width: 50%;
     }
 }
