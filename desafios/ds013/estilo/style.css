@@ -7,7 +7,6 @@
     --cor1: #1c7a09;
     --cor2: #29b90c;
     --cor3: #5d6d5a;
-    --cor4: #393b41; /*talvez*/
 
     --fontePadrao: Arial, Helvetica, sans-serif;
     --fonteDestaque: 'Bebas Neue', sans-serif;
@@ -64,7 +63,7 @@ main {
     background-color: white;
     padding: 15px;
     margin: auto;
-    height: 3100px;
+    height: 7100px;
     min-width: 290px;
     max-width: 1000px;
     padding: 20px;
@@ -100,7 +99,6 @@ picture.imagem > img{
 }
 
 div.video {
-    background-color: green;
     padding: 20px;
     margin: 0px -20px 30px -20px;
     padding-bottom: 58%;
