@@ -68,7 +68,7 @@ main {
     height: 4300px;
     min-width: 190px;
     max-width: 1000px;
-    padding-top: 20px;
+    padding: 20px;
     margin-bottom: 15px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
