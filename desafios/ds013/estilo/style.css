@@ -65,11 +65,13 @@ main {
     background-color: white;
     padding: 15px;
     margin: auto;
-    height: 9999px;
-    min-width: 290px;
+    height: 4300px;
+    min-width: 190px;
     max-width: 1000px;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 main  h1 {
@@ -114,4 +116,17 @@ div.video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+footer {
+    height: 25px;
+    background-color: #1c7a09;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer > p {
+    font-family: var(--fonteParagrafo);
+    font-size: 1em;
+    color: white;
 }
