@@ -19,6 +19,13 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -30,6 +37,7 @@
     <!--
         Anatomia de Tabelas complexas
         TABLE = tabela
+            CAPTION = Título da tabela
             THEAD = cabeça da tabela
                 TH, TR, TD
             TBODY = corpo da tabela
@@ -37,11 +45,12 @@
             TFOOT = pé da tabela
                 TH, TR, TD
     -->
-    <table>
+    <table >
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -60,7 +69,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>000000</td>
             </tr>
         </tfoot>
