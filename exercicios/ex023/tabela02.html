@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -31,10 +32,17 @@
             background-color: lightgray;
         }
 
+        thead th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
         }
+
     </style>
 </head>
 <body>
@@ -54,7 +62,7 @@
         <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th scope="col">Estado</th>
+                <th scope="col">Estado</th> <!--scope serve para o buscadores saberem que aquele th é responsável por coluna (col) ou responsável pela linha (row).-->
                 <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
@@ -79,5 +87,6 @@
             </tr>
         </tfoot>
     </table>
+
 </body>
 </html>
