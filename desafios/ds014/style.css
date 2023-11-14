@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+main {
+    background-color: white;
+    padding: 12px;
+    min-width: 350px;
+    max-width: 1000px;
+    height: 960px;
+    margin: auto;
+}
+
+table {
+    width: 150px;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+thead, tfoot, #meio {
+    background-color: gray;
+    color: white;
+}
+
+th, td {
+    padding: 7px;
+    border: 1px solid black;
+}
