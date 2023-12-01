@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            background-color: skyblue;
+            padding: 20px;
+        }
+
+        main {
+            background-color: white;
+            min-width: 350px;
+            max-width: 900px;
+            height: 2200px;
+            margin: auto;
+            padding: 35px;
+            text-align: center;
+        }
+
+        main > h1 {
+            margin-bottom: 20px;
+        }
+
+        main  table {
+            position: relative;
+            border-collapse: collapse;
+            width: 50vh;
+            margin: auto;
+            overflow-x: auto;
+        }
+
+        table > caption {
+            background-color: rgba(128, 128, 128, 0.829);
+            padding: 5px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        thead, tfoot{
+            background-color: rgba(15, 15, 15, 0.897);
+            color: white;
+        }
+
+        thead > tr > th {
+            top: -1px;
+            position: sticky;
+            background-color: rgba(15, 15, 15, 0.897);
+        }
+
+        th, td {
+            border: 1px solid black;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Revisão de tabela</h1>
+        <div id="conteiner">
+            <table>
+                <caption>tabela desafio</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Estado</th>
+                        <th scope="col">População</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Minas Gerais</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Rio Grande do Sul</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Paraná</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Amapá</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Amazonas</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Maranhão</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Rio Grande do Norte</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Alagoas</td>
+                        <td>100.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Tocatins</td>
+                        <td>100.000.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row">Total de Habitantes</th>
+                        <td>000000</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
