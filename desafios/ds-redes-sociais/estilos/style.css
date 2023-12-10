@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+:root {
+    --fontPadrao: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#tela{
+    display: block;
+    height: 627px;
+    width: 311px;
+    margin: auto;
+}
+
+section#redes-socias {
+    text-align: right;
+}
+
+section#redes-socias ul > li > a > img {
+    width: 55px;
+    border-radius: 50%;
+}
