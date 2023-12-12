@@ -34,6 +34,10 @@ section#redes-socias {
     text-align: right;
 }
 
+section#redes-socias > ul{
+    margin: 10px 10px 0px 0px;
+}
+
 section#redes-socias img {
     width: 50px;
     border-radius: 50%;
