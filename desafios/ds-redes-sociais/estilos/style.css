@@ -13,21 +13,22 @@ main {
 
 section#telefone{
     position: absolute;
-    height: 627px;
-    width: 311px;
+    height: 588px;
+    width: 435px;
     top: 50%;
     left: 50%;
-    background-image: url(../imagens/frame-iphone.png);
+    background-image: url(../imagens/celular-moto.png);
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
 }
 
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 22px;
-    height: 471px;
-    width: 267px;
+    top: 36px;
+    left: 125px;
+    height: 500px;
+    width: 250px;
+    border-radius: 9px;
 }
 
 section#redes-socias {
