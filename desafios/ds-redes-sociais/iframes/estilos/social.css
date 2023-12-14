@@ -3,12 +3,18 @@
 * {
      padding: 0px;
      margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
 }
 
 body {
-    overflow-x: hidden;
+    background-color: red;
 }
-
 
 img {
     width: 100vw;
@@ -18,12 +24,11 @@ a {
     position: relative;
     display: block;
     background-color: red;
-    height: 30px;
-    width: 240px;
+    height: 27px;
+    width: 230px;
     padding: 20px 20px 20px 10px;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     text-decoration: none;
 }
