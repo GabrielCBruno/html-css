@@ -1,7 +1,1 @@
 @charset "UTF-8";
-
-@media (max-width: 530px) {
-    section#telefone {
-        left: 49%;
-    }
-}
