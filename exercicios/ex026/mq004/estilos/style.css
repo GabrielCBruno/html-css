@@ -16,6 +16,7 @@ html {
 
 body {
     background: black url(../imagens/back-phone.jpg);
+    background-image: linear-gradient();
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
