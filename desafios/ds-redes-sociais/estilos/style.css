@@ -14,11 +14,11 @@ main {
 
 section#telefone{
     position: absolute;
-    height: 470px;
-    width: 400px;
+    height: 588px;
+    width: 500px;
     top: 50%;
     left: 50%;
-    background: url(../imagens/celular-moto-p.png) no-repeat;
+    background: url(../imagens/celular-moto.png) no-repeat;
     transform: translate(-50%, -50%);
 }
 
@@ -29,7 +29,6 @@ iframe#tela {
     height: 500px;
     width: 265px;
     border-radius: 7px;
-    display: none;
 }
 
 section#redes-socias {
