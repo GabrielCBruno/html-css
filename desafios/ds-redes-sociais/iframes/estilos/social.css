@@ -6,14 +6,14 @@
      font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: red;
+}
+
 
 ::-webkit-scrollbar {
     height: 0px;
     width: 0px;
-}
-
-body {
-    background-color: red;
 }
 
 img {
@@ -25,12 +25,14 @@ a {
     display: block;
     background-color: red;
     height: 27px;
-    width: 230px;
-    padding: 20px 20px 20px 10px;
+    width: 200px;
+    padding: 20px;
     color: white;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: bold;
     text-decoration: none;
+    border-end-end-radius: 7px;
 }
 
 a:hover {
