@@ -9,5 +9,17 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    
+    section#telefone {
+        height: 588px;
+        width: 500px;
+        background-image: url(../imagens/celular-moto.png);
+    }
+
+    iframe#tela {
+        top: 30px;
+        left: 100px;
+        height: 400px;
+        width: 200px;
+        src: url(../imagens/tela-home.png);
+    }
 }

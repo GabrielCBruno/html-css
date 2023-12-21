@@ -14,20 +14,20 @@ main {
 
 section#telefone{
     position: absolute;
-    height: 588px;
-    width: 500px;
+    height: 470px;
+    width: 400px;
     top: 50%;
     left: 50%;
-    background: url(../imagens/celular-moto.png) no-repeat;
+    background: url(../imagens/celular-moto-p.png) no-repeat;
     transform: translate(-50%, -50%);
 }
 
 iframe#tela {
     position: relative;
-    top: 36px;
-    left: 125px;
-    height: 500px;
-    width: 265px;
+    top: 28px;
+    left: 100px;
+    height: 400px;
+    width: 200px;
     border-radius: 7px;
 }
 
