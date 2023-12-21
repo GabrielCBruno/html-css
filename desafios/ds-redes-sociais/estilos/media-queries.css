@@ -24,14 +24,23 @@
         top: 36px;
         left: 125px;
         height: 500px;
-        width: 300px;
+        width: 250px;
         border-radius: 7px;
+    }
+
+    ul#botoesP {
+        display: none;
+    }
+    
+    ul#botoesA {
+        display: block;
     }
 
     section#redes-socias img {
         width: 55px;
         margin-right: 15px;
     }
+
 }
 
 @media screen and (min-width:992px){
@@ -50,8 +59,16 @@
         top: 36px;
         left: 125px;
         height: 500px;
-        width: 300px;
+        width: 250px;
         border-radius: 7px;
+    }
+
+    ul#botoesP {
+        display: none;
+    }
+    
+    ul#botoesA {
+        display: block;
     }
 
     section#redes-socias img {

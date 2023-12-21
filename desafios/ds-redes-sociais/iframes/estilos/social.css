@@ -3,11 +3,12 @@
 * {
      padding: 0px;
      margin: 0px;
-     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 
@@ -21,18 +22,13 @@ img {
 }
 
 a {
-    position: relative;
     display: block;
     background-color: red;
-    height: 27px;
-    width: 200px;
     padding: 20px;
     color: white;
     text-align: center;
-    font-size: 1.1em;
     font-weight: bold;
     text-decoration: none;
-    border-end-end-radius: 7px;
 }
 
 a:hover {
