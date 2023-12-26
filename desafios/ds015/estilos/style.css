@@ -11,6 +11,8 @@
 
     --cor01: #49a09d;
     --cor02: #5f2c82;
+    --cor03: #2d6462;
+    --cor04: #6cd3cf;
 
     /*Fontes*/
     --fontPadrao: Arial, Helvetica, sans-serif;
@@ -52,4 +54,52 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: .8em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor01);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor03);
+    cursor: pointer;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: var(--cor03);
+    text-decoration: none;
+    padding-top: 7px;
+    margin-top: 5px;
+    border: 1px solid var(--cor01);
+    border-radius: 5px;
+}
+
+form > a.botao:hover {
+    background-color: var(--cor04);
+}
+
+form > a.botao > span {
+    font-size: .8em;
 }
