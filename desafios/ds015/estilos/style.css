@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    verde: #49a09d
+    lilas: #5f2c82
+*/
+
+:root {
+    /*Cores*/
+
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+
+    /*Fontes*/
+    --fontPadrao: Arial, Helvetica, sans-serif;
+}
