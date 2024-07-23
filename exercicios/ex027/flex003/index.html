@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.Conteiner {
+            background-color: lightcoral;
+            display: flex;
+            flex-wrap: nowrap; /*Emcapsulamento. Valores: nowrap (padrão, sem emcapsulamento), wrap (com emcapsulamento, de acordo com o eixo transversal), wrap-reverse (oposto do wrap).*/
+            /*flex-flow: flex-direction + flex-wrap; */
+        }
+
+        div.Item {
+            background-color: lightskyblue;
+            flex: auto;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="Conteiner">
+        <div class="Item">Exemplo de bloco A</div>
+        <div class="Item">Exemplo de bloco B</div>
+        <div class="Item">Exemplo de bloco C</div>
+        <div class="Item">Exemplo de bloco D</div>
+        <div class="Item">Exemplo de bloco E</div>
+        <div class="Item">Exemplo de bloco F</div>
+    </div>
+</body>
+</html>

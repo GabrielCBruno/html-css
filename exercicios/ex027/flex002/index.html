@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.Conteiner {
+            background-color: lightcoral;
+            display: flex;
+            flex-direction: column; /*Permite alterar a direção do flex. Valore: row, row-reverse, column, column-reverse*/
+        }
+
+        div.Item {
+            background-color: lightskyblue;
+            text-align: center;
+            flex: auto;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="Conteiner">
+        <div class="Item">A</div>
+        <div class="Item">B</div>
+        <div class="Item">C</div>
+        <div class="Item">D</div>
+        <div class="Item">E</div>
+        <div class="Item">F</div>
+    </div>
+</body>
+</html>
