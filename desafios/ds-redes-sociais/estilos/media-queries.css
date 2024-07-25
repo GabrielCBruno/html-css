@@ -8,46 +8,8 @@
     -Grandes Telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    section#telefone {
-        height: 588px;
-        width: 500px;
-        background-image: url(../imagens/celular-moto.png);
-    }
-
-    iframe#telaP {
-        display: none;
-    }
-
-    iframe#telaA {
-        display: block;
-        top: 36px;
-        left: 125px;
-        height: 500px;
-        width: 250px;
-        border-radius: 7px;
-    }
-
-    ul#botoesP {
-        display: none;
-    }
+@media screen and (min-width: 450px) and (max-width: 500px) {
     
-    ul#botoesA {
-        display: block;
-    }
-
-    section#redes-socias img {
-        width: 55px;
-        margin: 10px 15px 10px 10px;
-    }
-
-    section#redes-socias img:hover {
-        border: 2px solid rgba(255, 255, 255, 0.74);
-        transform: translate(-3px, -3px);
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
-        transition: transform .5s, border .5s;
-    }
-
 }
 
 @media screen and (min-width:992px){
