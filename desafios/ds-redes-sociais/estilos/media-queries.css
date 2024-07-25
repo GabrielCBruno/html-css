@@ -9,7 +9,16 @@
 */
 
 @media screen and (min-width: 450px) and (max-width: 500px) {
+    section#telefone {
+        top: 45vh;
+        width: 400px;
+        background-image: url(../imagens/celular-moto-p.png);
+    }
     
+    section#redes-socias img {
+        width: 45px;
+        margin: 10px;
+    }
 }
 
 @media screen and (min-width:992px){
