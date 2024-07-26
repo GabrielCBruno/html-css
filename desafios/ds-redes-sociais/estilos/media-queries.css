@@ -8,12 +8,9 @@
     -Grandes Telas: acima de 1200px
 */
 
-@media screen and (min-width: 450px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     section#telefone {
-        top: 45vh;
         width: 310px;
-        top: 44%;
-        left: 40%;
         background-image: url(../imagens/celular-moto-p.png);
     }
     
