@@ -20,6 +20,7 @@ section#telefone{
     left: 50%;
     background: url(../imagens/celular-moto-p.png) no-repeat;
     transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 iframe#telaP {
@@ -55,6 +56,10 @@ ul#botoesP {
 
 ul#botoesA {
     display: none;
+}
+
+li.botao {
+    cursor: pointer;
 }
 
 section#redes-socias img {
