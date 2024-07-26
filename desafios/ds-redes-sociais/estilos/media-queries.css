@@ -8,7 +8,7 @@
     -Grandes Telas: acima de 1200px
 */
 
-@media screen and (min-width: 450px) and (max-width: 500px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     section#telefone {
         top: 45vh;
         width: 310px;
