@@ -25,6 +25,7 @@
         height: 588px;
         width: 500px;
         background-image: url(../imagens/celular-moto.png);
+        pointer-events: all;
     }
 
     iframe#telaP {

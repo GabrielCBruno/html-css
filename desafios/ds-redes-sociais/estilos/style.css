@@ -30,11 +30,13 @@ iframe#telaP {
     height: 400px;
     width: 200px;
     border-radius: 7px;
+    pointer-events: fill;
 }
 
 iframe#telaA {
     position: relative;
     display: none;
+    pointer-events: fill;
 }
 
 div.erro {
