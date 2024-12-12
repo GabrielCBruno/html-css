@@ -13,9 +13,9 @@ body {
 }
 
 body > header {
-    height: 125px;
+    height: 170px;
     padding: 15px 10px;
-    background-color: gray;
+    background-image: linear-gradient(to bottom, rgba(143, 142, 142, 0.808), rgba(128, 0, 128, 0.945));
     text-align: center;
 }
 
@@ -26,28 +26,39 @@ header > h1 {
 }
 
 span#burger {
-  font-size: 2.3em;
+  font-size: 2.2em;
   cursor: pointer;
 }
 
 header > nav {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 nav > ul {
-    margin: 0px 8px;
     display: none;
 }
 
-ul > li > a {
+ul > li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+li > a {
     color: black;
     font-size: 1.1em;
     font-family: var(--fonte_links);
     text-decoration: none;
+    padding: 7px;
+}
+
+li > a:hover {
+    border-radius: 15%;
+    background-color: purple;
+    color: white;
 }
 
 main > section {
-    height: 2800px;
+    height: 2500px;
     padding: 15px;
 }
 
@@ -57,6 +68,7 @@ article > h2 {
 
 article > p {
     text-indent: 25px;
+    font-size: 1.1em;
     text-align: justify;
 }
 
