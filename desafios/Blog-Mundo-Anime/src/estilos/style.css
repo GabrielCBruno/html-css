@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --fonte_padrao : Arial, Helvetica, sans-serif; 
+    --fonte_padrao : Arial, Helvetica, sans-serif;
+    --fonte_links  : Lato Bold, sans-serif;
 }
 
 body {
@@ -33,15 +34,19 @@ header > nav {
     margin-top: 10px;
 }
 
-header > nav > a {
+nav > ul {
     margin: 0px 8px;
-    font-size: 1.1em;
     display: none;
+}
+
+ul > li > a {
     color: black;
+    font-size: 1.1em;
+    font-family: var(--fonte_links);
     text-decoration: none;
 }
 
-main > article {
+main > section {
     height: 2800px;
     padding: 15px;
 }
