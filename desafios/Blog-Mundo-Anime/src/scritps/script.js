@@ -1,10 +1,9 @@
-var burger = document.getElementById('burger')
-var navegacao = document.getElementById('navegacao')
+const menu = document.getElementById('navegacao')
 
-function Menu() {
-    if (navegacao.style.display == 'none') {
-        navegacao.style.display == 'block'
+function Interacao() {
+    if (menu.style.display == 'none') {
+        menu.style.display = 'block'
     }else {
-        navegacao.style.display == 'none'
+        menu.style.display = 'none'
     }
 }

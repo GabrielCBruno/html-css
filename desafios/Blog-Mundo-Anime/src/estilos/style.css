@@ -14,7 +14,7 @@ body {
 
 body > header {
     height: 170px;
-    padding: 15px 10px;
+    padding: 30px 10px;
     background-image: linear-gradient(to bottom, rgba(143, 142, 142, 0.808), rgba(128, 0, 128, 0.945));
     text-align: center;
 }
@@ -31,10 +31,10 @@ span#burger {
 }
 
 header > nav {
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
-nav > ul {
+nav#navegacao {
     display: none;
 }
 
@@ -59,17 +59,28 @@ li > a:hover {
 
 main > section {
     height: 2500px;
-    padding: 15px;
+    padding: 20px;
 }
 
-article > h2 {
+article#principal > h2 {
     margin: 10px 0px;
+    text-align: center;
 }
 
-article > p {
+article#principal > p {
     text-indent: 25px;
     font-size: 1.1em;
     text-align: justify;
+}
+
+div.imagem{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+div.imagem > img {
+    height: 300px;
+    width: 300px;
 }
 
 body > footer {

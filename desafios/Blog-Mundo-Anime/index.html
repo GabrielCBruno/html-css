@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="src/estilos/reset.css">
     <link rel="stylesheet" href="src/estilos/style.css">
 </head>
-<body>
+<body onresize="Verificar()">
     <header>
+        <span class="material-symbols-outlined" id="burger" onclick="Interacao()">
+            menu
+        </span>
         <img src="src/media/imagens/logo.png" alt="logo Mundo-Anime">
         <h1>
             Bem-vindo ao Blog nossa loja virtual Mundo Anime M.A!
         </h1> <br>
-        <span class="material-symbols-outlined" id="burger" onclick="Menu()">
-            menu
-        </span>
         <nav id="navegacao">
             <ul>
                 <li>
@@ -36,15 +36,29 @@
     </header>
     <main>
         <section>
-            <article>
-                <h2>Sobre a loja</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos.</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos.</p>
-            
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos.</p>
-                <h2>Sobre o fundador</h2>
-            
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab porro reprehenderit nemo expedita. Eaque aperiam nobis quae voluptas, consectetur vitae reiciendis quasi iste, cumque, aspernatur voluptatum praesentium facere id quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis harum repellendus totam provident sunt vel accusantium, non libero? Blanditiis aliquam aperiam at fuga atque asperiores rem temporibus labore eos.</p>
+            <article id="principal">
+                <h2>APRESENTAÇÃO</h2>
+                <p> A nossa loja virtual de roupas anime é um espaço online dedicado aos fãs de animações japonesas. Oferecemos uma ampla variedade de produtos inspirados em animes famosos, como camisetas, blusas, moletons, bonés e acessórios temáticos. Nosso objetivo é proporcionar aos amantes da cultura pop japonesa a oportunidade de expressar sua paixão por meio da moda, oferecendo peças exclusivas e de alta qualidade. Com um catálogo diversificado e atualizado, estamos sempre em busca das últimas tendências e lançamentos do universo anime. Venha conhecer a nossa loja e se vestir com estilo e originalidade inspirados nos seus personagens favoritos.</p>
+                <div class="imagem">
+                    <img src="src/media/imagens/Manga_1.webp" alt="Mangá: Naruto Shippuden Vol 69">
+                    <p>Mangá: Naruto Shippuden Vol 69</p>
+                </div>
+                <div class="imagem">
+                    <img src="src/media/imagens/Manga_2.webp" alt="Mangá: Naruto Shippuden Vol 56">
+                    <p>Mangá: Naruto Shippuden Vol 56</p>
+                </div>
+                <div class="imagem">
+                    <img src="src/media/imagens/camisa_1.webp" alt="Camisa feminina One Piece">
+                    <p>Camisa feminina One Piece</p>
+                </div>
+                <div class="imagem">
+                    <img src="src/media/imagens/camisa_2.webp" alt="CAMISETA BLACK CLOVER">
+                    <p>Camiseta black clover</p>
+                </div>
+                <div class="imagem">
+                    <img src="src/media/imagens/calça_1.webp" alt="Calça cargo camuflada feminina">
+                    <p>Calça cargo camuflada feminina</p>
+                </div>
             </article>
         </section>
     </main>
