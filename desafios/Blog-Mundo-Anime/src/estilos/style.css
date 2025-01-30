@@ -3,6 +3,8 @@
 :root {
     --fonte_padrao : Arial, Helvetica, sans-serif;
     --fonte_links  : Lato Bold, sans-serif;
+
+    --corDeGraDe : rgba(143, 142, 142, 0.808), rgba(128, 0, 128, 0.945);
 }
 
 body {
@@ -13,9 +15,9 @@ body {
 }
 
 body > header {
-    height: 170px;
+    height: 130px;
     padding: 30px 10px;
-    background-image: linear-gradient(to bottom, rgba(143, 142, 142, 0.808), rgba(128, 0, 128, 0.945));
+    background-image: linear-gradient(to bottom, var(--corDeGraDe));
     text-align: center;
 }
 
@@ -30,12 +32,11 @@ span#burger {
   cursor: pointer;
 }
 
-header > nav {
-    margin-top: 25px;
-}
-
 nav#navegacao {
-    display: none;
+    display: block;
+    background-color: rgba(128, 0, 128, 0.945);
+    padding: 20px 25px;
+    height: 100px;
 }
 
 ul > li {
