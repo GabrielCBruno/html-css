@@ -33,7 +33,7 @@ span#burger {
 }
 
 nav#navegacao {
-    display: block;
+    display: none;
     background-color: rgba(128, 0, 128, 0.945);
     padding: 20px 25px;
     height: 100px;
