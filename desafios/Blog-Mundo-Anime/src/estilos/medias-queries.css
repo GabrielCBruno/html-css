@@ -11,12 +11,23 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px){
+    body > header {
+        display: block;
+        position: relative;
+    }
+
     span#burger {
         display: none;
     }
+
+    header > img {
+        text-align: left;
+    }
     
     nav#navegacao {
-        display: none;
+        display: block;
+        text-align: center;
+        background-color: white;
     }
 
     main {
