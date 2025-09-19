@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOGO DA ADIVINHA</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/estilos/style.css">
+    <link rel="stylesheet" href="src/estilos/reset.css">
+    <link rel="icon" href="src/imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<main>
 		<h1>JOGO DA ADIVINHA</h1>
 		<section class="container">
-			<div class="itens" id="correto">
+			<div class="itens">
 			</div>
 			<div class="itens">
 			</div>
@@ -30,6 +35,12 @@
 			</div>
 		</section>
 		<button id="meuBotao">Clique aqui Para Iniciar</button>
+		<section class="exibicao">
+			<h2>Pontos Ganhos: </h2>
+			<p class="saida" id="saidaPontos">0</p>
+			<h2>Meta: </h2>
+			<p class="saida" id="saidaMeta">0</p>
+		</section>
 	</main>	
-	<script src="script.js"></script>
+	<script src="src/codigos/script.js"></script>
 </body>
