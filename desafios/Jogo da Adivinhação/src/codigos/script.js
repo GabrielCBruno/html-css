@@ -10,21 +10,34 @@ let metaI=0;
 let velocidade = 500;
 
 bntDificuldade.forEach((btn, index) => {
-	btn.addEventListener('click', () => {
-	   
+  btn.addEventListener('click', () => {
+    const jaPressionado = btn.classList.contains('btndificuldade-pressionado');
 
-	   if (index === 0) {
-		velocidade = 1000;
-	   } else if (index === 1) {
-		velocidade = 500;
-	   } else if (index === 2) {
-		velocidade = 300;
-           }
+    // Se já estiver pressionado, desmarca e libera todos os botões
+    if (jaPressionado) {
+      btn.classList.remove('btndificuldade-pressionado');
+      bntDificuldade.forEach(b => b.style.pointerEvents = 'auto');
+      return;
+    }
 
-	   btn.classList.add('btndificuldade-pressionado');
+    // Marca o botão clicado
+    bntDificuldade.forEach(b => {
+      b.classList.remove('btndificuldade-pressionado');
+      b.style.pointerEvents = 'none'; // desativa todos primeiro
+    });
 
-	   bntDificuldade.forEach(b => b.style.pointerEvents = 'none'); 
-   });
+    btn.classList.add('btndificuldade-pressionado');
+    btn.style.pointerEvents = 'auto'; // reativa o atual
+
+    // Define a velocidade com base na dificuldade
+    if (index === 0) {
+      velocidade = 1000; // Fácil
+    } else if (index === 1) {
+      velocidade = 500; // Médio
+    } else if (index === 2) {
+      velocidade = 300; // Difícil
+    }
+  });
 });
 
 botao.addEventListener('click', () => {
@@ -36,6 +49,7 @@ botao.addEventListener('click', () => {
     pontosI = 0;
 
     botao.innerText = "Resetar";
+    bntDificuldade.forEach(b => b.style.pointerEvents = 'none');
 
     // Começa a escolher divs aleatórias a cada 1 segundo
     escolherDivAleatoria(); // Escolhe uma imediatamente
@@ -59,12 +73,13 @@ function escolherDivAleatoria() {
 divs.forEach(div => {
   div.addEventListener('click', () => {
     if (div.id === 'correto') {
-      
-      pontosI++;
-      pontos.innerText = pontosI;
+        //ACERTOU
+        pontosI++;
+        pontos.innerText = pontosI;
     } else {
-      alert('Você clicou no quadrado errado!');
-      encerrarPrograma();
+        //ERROU
+        alert('Você clicou no quadrado errado!');
+        encerrarPrograma();
     }
   });
 });
