@@ -3,15 +3,18 @@
 :root {
 	--fonte-padrao: Arial, Sans-serif;
 	--fonte-destaque: "Audiowide", sans-serif;
+	--fonte-botao: "Bona Nova SC", serif;
 
-	--cor-fundo01: lightblue;
-	--cor-fundo02: #e66465;
-	--cor-fundo03: #9198e5;
+	--cor01: #9EF8EE;
+	--cor02: #FA7F08;
+	--cor03: #F24405;
+	--cor05: #348888; /*Fundo*/
+	--cor04: #22BABB; /*Fundo */
 }
 
 body {
 	font-family: var(--fonte-padrao);
-	background: linear-gradient(to right, var(--cor-fundo02), var(--cor-fundo03));
+	background: linear-gradient(to right, var(--cor05), var(--cor04));
 	height: 100vh;
 	width: 100vw;
 	/*padding: 55px;*/
@@ -31,7 +34,7 @@ section.container {
 	width: 500px;
 	margin: auto;
 	background-color: white;
-	border: 2px solid black;
+	border: 5px solid black;
 }
 
 h1 {
@@ -67,16 +70,14 @@ div#selecionada {
 	background-color: blue;
 }
 
-button#meuBotao {
+button#btnIniciar {
 	color: white;
 	background-color: blue;
 	font-size: 1.2em;
 	border-radius: 10px;
 	width: 190px;
 	height: 80px;
-	cursor: pointer;
-	margin-top: 15px;
-	margin-left: 44%; 
+	margin: auto;
 }
 
 #correto {
@@ -85,10 +86,31 @@ button#meuBotao {
 
 section.exibicao {
 	position: fixed;
-	top: 20%;
-	left: 70%;  
-	width: 240px;
-	height: 200px;
+	top: 12%;
+	left: 67%;  
+	width: 420px;
+	height: 480px;
 	padding: 25px;
-	background-color: green;
+	background-color: var(--cor01);
+	border-radius: 10px;
+	box-shadow: 8px 8px 0;
+}
+
+button.btndificuldade {
+	font-family: var(--fonte-botao);
+	font-weight: bold;
+	font-size: 1.2em;
+	display: box-level;
+	width: 100px;
+	height: 80px;
+	border-radius: 5px;
+	background-color: var(--cor02);
+	margin: 15px 5px;
+}
+
+.btndificuldade-pressionado {
+  background-color: #555;
+  color: white;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.7);
+  transform: translateY(2px);
 }
