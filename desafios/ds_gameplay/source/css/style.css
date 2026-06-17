@@ -37,11 +37,12 @@ main {
     padding: 20px;
 }
 
-section {
+.carta {
     display: none;
+    height: 95vh;
 }
 
-section.selecionada {
+.selecionada {
     display: block;
 }
 
@@ -79,7 +80,7 @@ section.selecionada {
     display: flex;
     /*top: 620px; 
     left: 640px;*/
-    top: 30%;
+    top: 85%;
     left: 42%;
     width: 250px;
     z-index: 10;
