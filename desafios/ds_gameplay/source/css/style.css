@@ -79,8 +79,6 @@ main {
 .botoes {
     position: absolute;
     display: flex;
-    /*top: 620px; 
-    left: 640px;*/
     top: 89%;
     left: 42%;
     width: 250px;
