@@ -30,6 +30,8 @@
 
     .contexto {
         padding: 0 55px;
+        height: 400px;
+        width: 400px;
     }
 
     .botoes {
