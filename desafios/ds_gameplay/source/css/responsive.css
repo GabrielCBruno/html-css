@@ -28,8 +28,13 @@
         font-size: .9em;
     }
 
+    .carta {
+        position: relative;
+    }
+
     .contexto {
-        padding: 0 55px;
+        position: absolute;
+        padding: 0 15px;
         left: 2px;
     }
 
