@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 992px) {
     .body {
-        max-width: 992px;
+        max-width: 720px;
     }
 
     .titulo {
