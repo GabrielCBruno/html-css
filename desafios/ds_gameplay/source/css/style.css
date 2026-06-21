@@ -12,7 +12,7 @@
 
     --corfundo: white;
     --cortitulo: black;
-    --cortexto: black;
+    --cortexto: white;
     --corbotaofixa: white;
     --corbotaoalternar: blue;
     --corbotaoalternartexto: white;
@@ -74,6 +74,7 @@ main {
     font-weight: bold;
     font-family: var(--fonte_texto); 
     color: var(--cortexto);
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
 
 .botoes {
@@ -100,7 +101,7 @@ main {
 
 .botao:hover {
     background-color: var(--corbotaoalternar);
-    color: var(--corbotaotexto);
+    color: var(--corbotaoalternartexto);
     font-weight: bolder;
 }
 
