@@ -12,7 +12,7 @@
 
     --corfundo: white;
     --cortitulo: black;
-    --cortexto: white;
+    --cortexto: black;
     --corbotaofixa: white;
     --corbotaoalternar: blue;
     --corbotaoalternartexto: white;
@@ -74,14 +74,16 @@ main {
     font-weight: bold;
     font-family: var(--fonte_texto); 
     color: var(--cortexto);
-    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px white;
 }
 
 .botoes {
     position: absolute;
     display: flex;
-    top: 89%;
-    left: 42%;
+    /*top: 89%;
+    left: 42%;*/
+    top: 90vh;
+    left: 41.5vw;
     width: 250px;
     z-index: 10;
     justify-content: space-between;
