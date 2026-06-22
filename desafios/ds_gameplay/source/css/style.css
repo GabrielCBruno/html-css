@@ -28,14 +28,14 @@ body {
     background-attachment: fixed;
     font-family: var(--fonte-padrao);
     overflow: hidden;
-    width: 99vw;
-    font-size: 1em;
 }
 
 main {
     text-align: center;
     position: relative;
     padding: 20px;
+    height: 100vh;
+    width: 100vw;
 }
 
 .carta {
