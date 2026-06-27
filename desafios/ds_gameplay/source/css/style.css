@@ -33,7 +33,6 @@ body {
 main {
     text-align: center;
     position: relative;
-    padding: 20px;
     height: 100vh;
     width: 100vw;
 }
@@ -80,8 +79,6 @@ main {
 .botoes {
     position: absolute;
     display: flex;
-    /*top: 89%;
-    left: 42%;*/
     top: 90vh;
     left: 41.5vw;
     width: 250px;
