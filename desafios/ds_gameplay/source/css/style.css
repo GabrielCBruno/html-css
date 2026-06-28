@@ -73,7 +73,6 @@ main {
     font-weight: bold;
     font-family: var(--fonte_texto); 
     color: var(--cortexto);
-    text-shadow: 5px 5px 10px white;
 }
 
 .botoes {
