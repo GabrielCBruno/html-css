@@ -12,7 +12,7 @@
 
     --corfundo: white;
     --cortitulo: black;
-    --cortexto: white;
+    --cortexto: black;
     --corbotaofixa: white;
     --corbotaoalternar: blue;
     --corbotaoalternartexto: white;
@@ -56,8 +56,11 @@ main {
 
 .contexto {
     margin: auto;
-    height: 600px;
+    height: 210px;
     width: 500px;
+    background-color: rgba(255, 255, 255, 0.873);
+    border: 5px solid rgba(0, 0, 0, 0.734);
+    border-radius: 5px;
 }
 
 .imagem {
