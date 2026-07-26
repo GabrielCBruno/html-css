@@ -9,42 +9,11 @@
     -Grandes Telas: acima de 1200px
 */
 
-@media screen and (max-width: 1200px) {
-    .body {
-        max-width: 720px;
-    }
+@media screen and (min-width: 768px) {
 
     body#login {
         background-image: url(../imagem/fundoApresentacao.png);
     } 
 
-    .titulo {
-        font-size: 1.5em;
-    }
-
-    .imagem {
-        max-height: 50%;
-        max-width: 50%;
-        max-height: 768px;
-    }
-
-    .texto {
-        font-size: .9em;
-    }
-
-    .carta {
-        position: relative;
-    }
-
-    .contexto {
-        position: absolute;
-        padding: 0 15px;
-        left: 2px;
-    }
-
-    .botoes {
-        top: 80vh;
-        left: 24.5vw;
-    }
-
+   
 }
