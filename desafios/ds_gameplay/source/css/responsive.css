@@ -15,5 +15,9 @@
         background-image: url(../imagem/fundoApresentacao.png);
     } 
 
+    body#cards {
+        background-image: url(../imagem/fundoCartas.jpg);
+    }
+
    
 }
