@@ -1,33 +1,42 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
+@font-face {
+    font-family: "MatrixBook";
+    src: url(fonts/Yu-Gi-Oh!\ Matrix\ Book.ttf) format('.ttf');
+    font-size: 1em;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@font-face {
+    font-family: "StoneSerif";
+    src: url(fonts/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 2.ttf) format('.ttf');
+    src: url(fonts/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf) format('.ttf');
+    font-size: 1em;
+}
 
 :root {
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-titulo: "Asul", serif;
-    --fonte_texto: "Inconsolata", monospace;
+    --fonte-titulo: "MatrixBook";
+    --fonte_texto: "StoneSerif";
 
     --corfundo: white;
     --cortitulo: black;
-    --cortexto: black;
+    --cortexto: rgb(78, 3, 78);
     --corbotaofixa: white;
     --corbotaoalternar: blue;
     --corbotaoalternartexto: white;
 }
 
 
-body {
+body.TelaPrincipal {
+    overflow: hidden;
+    font-family: var(--fonte-padrao);
     background-color: var(--corfundo);
-    background-image: url(../imagem/fundo.jpg);
+    background-image: url(fundo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: var(--fonte-padrao);
-    overflow: hidden;
 }
 
 main {
@@ -35,24 +44,32 @@ main {
     position: relative;
 }
 
-.carta {
+header.cabecalho {
+    height: 80px;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+section.carta {
     display: none;
     height: 95vh;
 }
 
-.selecionada {
+section.selecionada {
     display: block;
 }
 
-.titulo {
-    font-family: var(--fonte-titulo);
-    font-size: 60px;
-    padding: 10px;
+h1.tituloPrincipal {
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
     text-decoration: underline;
-    color: var(--cortitulo);
+    font-family: var(--fonte-titulo);
+    margin-top: 10px;
+    font-size: 2.5em;
+    color: gold;
 }
 
-.contexto {
+section.contexto {
     margin: auto;
     height: 210px;
     width: 500px;
@@ -61,22 +78,43 @@ main {
     border-radius: 5px;
 }
 
-.imagem {
+section.exibicao {
+    padding: 25px;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.873);
+    border: 5px solid rgba(0, 0, 0, 0.877);
+    border-radius: 5px;
+}
+
+img.imagemDeck {
+    margin: auto;
+    cursor: pointer;
+}
+
+.imagemCarta {
     padding: 15px;
 }
 
-.texto {
+p.textoApresentacao {
     text-align: justify;
-    padding: 6px 5px 0 5px;
-    text-indent: 45px;
-    height: 100px;
+    margin-bottom: 30px;
+    font-family: "StoneSerif";
     font-size: 1.1em;
-    font-weight: bold;
-    font-family: var(--fonte_texto); 
     color: var(--cortexto);
 }
 
-.botoes {
+p.textoCarta {
+    text-align: justify;
+    padding: 6px 5px 0 5px;
+    text-indent: 45px;
+    font-size: 1.1em;
+    color: var(--cortexto);
+    font-family: var(--fonte_texto); 
+}
+
+section.botoes {
     position: absolute;
     display: flex;
     top: 90vh;
@@ -86,7 +124,7 @@ main {
     justify-content: space-between;
 }
 
-.botao {
+button.botao {
     margin: 10px;
     padding: 15px;
     width: 100px;
