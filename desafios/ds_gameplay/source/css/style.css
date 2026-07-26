@@ -32,11 +32,18 @@ body.TelaPrincipal {
     overflow: hidden;
     font-family: var(--fonte-padrao);
     background-color: var(--corfundo);
-    background-image: url(fundo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+body#login {
+    background-image: url(../imagem/fundoApresentacaoPequeno.png);
+}
+
+body#cards{
+    background-image: url(../imagem/fundoCartas.jpg);
 }
 
 main {
