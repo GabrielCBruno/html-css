@@ -22,6 +22,7 @@
     --corfundo: white;
     --cortitulo: black;
     --cortexto: rgb(78, 3, 78);
+    --corexibicao: rgba(255, 255, 255, 0.873);
     --corbotaofixa: white;
     --corbotaoalternar: blue;
     --corbotaoalternartexto: white;
@@ -43,7 +44,7 @@ body#login {
 }
 
 body#cards{
-    background-image: url(../imagem/fundoCartasPequeno.jpg);
+    background-image: url(../imagem/jadespelho.jpg);
 }
 
 main {
@@ -72,15 +73,14 @@ h1.tituloPrincipal {
     text-decoration: underline;
     font-family: var(--fonte-titulo);
     margin-top: 10px;
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: gold;
 }
 
-section.contexto {
+section.contextoCarta {
     margin: auto;
-    height: 210px;
-    width: 200px;
-    background-color: rgba(255, 255, 255, 0.873);
+    height: 150px;
+    background-color: var(--corexibicao);
     border: 5px solid rgba(0, 0, 0, 0.734);
     border-radius: 5px;
 }
@@ -89,8 +89,7 @@ section.exibicao {
     padding: 25px;
     height: 400px;
     width: 400px;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.873);
+    background-color: var(--corexibicao);
     border: 5px solid rgba(0, 0, 0, 0.877);
     border-radius: 5px;
 }
@@ -124,8 +123,8 @@ p.textoCarta {
 section.botoes {
     position: absolute;
     display: flex;
-    top: 90vh;
-    left: 41.5vw;
+    top: 85vh;
+    left: 15vw;
     width: 250px;
     z-index: 10;
     justify-content: space-between;

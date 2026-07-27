@@ -16,8 +16,13 @@
     } 
 
     body#cards {
-        background-image: url(../imagem/fundoCartas.jpg);
+        background-image: url(../imagem/jadespelho.jpg);
     }
 
+    section.contextoCarta {
+        max-width: 500px;
+    }
+
+    
    
 }
