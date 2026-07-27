@@ -124,7 +124,7 @@ section.botoes {
     position: absolute;
     display: flex;
     top: 85vh;
-    left: 15vw;
+    left: 25%;
     width: 250px;
     z-index: 10;
     justify-content: space-between;
