@@ -20,15 +20,28 @@
     }
 
     section.contextoCarta {
-        max-width: 500px;
+        position: relative;
+        padding: 40px;
+    }
+
+    img.imagemCarta {
+        position: absolute;
+        left: 580px;
+    }
+
+    p.textoCarta {
+        position: absolute;
+        left: 850px;
+        width: 500px;
     }
 
     section.botoes {
-        left: 41.5vw;
+        top: 300px;
+        left: 61vw;
+    }    
+
+    button.botao {
+        font-size: 1em;
     }
-
-    
-
-    
    
 }

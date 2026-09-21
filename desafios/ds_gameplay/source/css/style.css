@@ -43,7 +43,7 @@ body#login {
     background-image: url(../imagem/fundoApresentacaoPequeno.png);
 }
 
-body#cards{
+body#cards {
     background-image: url(../imagem/jadespelho.jpg);
 }
 
@@ -68,21 +68,17 @@ section.selecionada {
 }
 
 h1.tituloPrincipal {
-    text-align: center;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    color: #D4AF37;
+    text-shadow: 2px 2px 3px #000;
     text-decoration: underline;
     font-family: var(--fonte-titulo);
     margin-top: 10px;
     font-size: 2.3em;
-    color: gold;
 }
 
 section.contextoCarta {
-    margin: auto;
-    height: 150px;
-    background-color: var(--corexibicao);
-    border: 5px solid rgba(0, 0, 0, 0.734);
-    border-radius: 5px;
+    height: 600px;
+    padding: 15px;
 }
 
 section.exibicao {
@@ -100,10 +96,6 @@ img.imagemDeck {
     cursor: pointer;
 }
 
-.imagemCarta {
-    padding: 15px;
-}
-
 p.textoApresentacao {
     text-align: justify;
     margin-bottom: 30px;
@@ -114,11 +106,15 @@ p.textoApresentacao {
 
 p.textoCarta {
     text-align: justify;
-    padding: 6px 5px 0 5px;
-    text-indent: 45px;
+    padding: 10px;
+    text-indent: 35px;
     font-size: 1.1em;
     color: var(--cortexto);
-    font-family: var(--fonte_texto); 
+    font-family: var(--fonte_texto);
+    background-color: var(--corexibicao);
+    border: 5px solid rgba(0, 0, 0, 0.734);
+    border-radius: 5px;
+    font-weight: bolder;
 }
 
 section.botoes {
@@ -132,12 +128,16 @@ section.botoes {
 }
 
 button.botao {
-    margin: 10px;
+    margin: auto;
     padding: 15px;
-    width: 100px;
+    width: 115px;
+    font-weight: bolder;
+    font-size: 1em;
     text-align: center;
     cursor: pointer;
-    border: 2px black solid;
+    background-color: #E8F4FF;
+    color: #111827;
+    border: 2px solid #B8860B;
     border-radius: 5px;
     background-color: var(--corbotaofixa);
     transition: background-color 0.3s ease;
@@ -150,5 +150,5 @@ button.botao {
 }
 
 .botao:not(:hover) {
-  transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
